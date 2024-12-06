@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!---https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.33.0/min/vs-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Editor</title>
+    <meta charset="UTF-8">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+   <body>
+   
+        <header>
+          <img class="header-img" src="ggcLson.png">
+        </header>
+        <section class="menu-bar">
+          <button class="open-file"></button>
+          <button class="save-file"></button>
+          <button class="share-file"></button>
+          <div class="menu-right">
+            <select class="dropdown" name="dropdown">
+              <option class="vb" value="vb">VB</option>
+            </select>
+            <button class="change-theme"></button>
+            <button class="about-button"></button>
+            <button class="setting-button"></button>
+          </div>
+        </section>
+<div class="flex-container">
+    <div id="editor-container"></div>
+  
+    <div class="editor-container2"></div>
+</div>
+<button id="add-tab-button">Add Tab</button>
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@latest/min/vs/loader.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

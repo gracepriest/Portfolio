@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    width: 100%;
+    height: 10em;
+    background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+    position: relative;
+  
+}
+.top-nav{
+    position: relative;
+    text-align: right;
+ 
+
+}
+nav a{
+   padding-right: 20px;
+   
+   color: white;
+}
+footer{
+
+    
+    width: 100%;
+    height: 8em;
+    background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+    margin-top: 100px;
+    
+    
+   
+}
+.bottom-nav{
+ 
+  
+   margin: auto 40%; 
+   width: 100%;
+   padding: 10px;
+   
+}
+
+.footer-text{
+    font-family: 'Gaegu', roboto;
+    padding: 10px 0px;
+    font-size: 30px;
+    margin: auto 43%;
+    width: 100%;
+}
+.top-site-background{
+    background-color: #717087;
+    background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+    height: 500px; 
+   
+}
+.button-box{
+   
+    
+    background-image: linear-gradient(to right, #73c2fb, rgba(52, 51, 84));
+    height: 0px;
+    padding: 30px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    bottom: 2em;
+    
+    
+}
+.border{
+
+border:  1px solid;
+border-image: linear-gradient(to right, pink, blue) 1;
+border-width:  1px 0px 5px  0px;
+
+
+}
+.bold{
+    font-weight: bold;
+}
+.large-text{
+    
+    font-size: 40px;
+}
+.center-text{
+text-align: center;
+
+
+}
+.header-text{
+position: relative;
+top: 25px;
+color: white;
+}
+
+.button-box:hover {
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+      background-color: white;
+      color: #e35335;
+}
+a:hover{
+   
+      color: #e35335;
+}
+.copy-right{
+   
+    margin: auto 45%;
+    width: 1000%;
+
+   
+    }
+    .main-image{
+        border-radius: 10px;
+        margin-top: 5rem;
+        
+        
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .warp{
+        
+       word-wrap: normal;
+        
+    }
+    .display-inline-box{
+        display: inline-block;
+    }
+    .center-div{
+        
+        display: flex;
+        
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+
+    .content{
+        display: flex;
+        justify-content:space-around;
+        margin-top: 150px;;
+    }
+
+    .content-div{
+        
+        height: 350px;
+        width: 180px;
+       
+      
+       
+
+    }
+    .content-text{
+        margin-top: 15px;
+        font-size: larger;
+        font-family: 'Gaegu', cursive;
+    }
+    .services-header-text{
+        font-size: 2.5em;
+        color: rgba(52, 51, 84);
+    }
+    .services-text{
+        font-size:  1.5em;
+        color: lightslategray;
+    }
+    .services{
+        margin-top: 1pc;
+        margin-left: 15pc;
+    }
+    .web-service{
+        margin-top: 6pc;
+    }
+    .img_container{
+       
+        float: right;
+        margin-top: 6pc;
+    }
+    .div-border{
+        background-color: #717087;
+        background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+        height: 300px; 
+        margin-top: 4pc;
+       
+
+    }
+    .company-header{
+        position: relative;
+        font-size: 2.5em;
+        color:white;
+        width: 100%;
+       
+        text-align: center;
+        
+       top: 115px;
+       
+       
+        
+    }
+    .content-text-header{
+        font-size: 0.9em;
+        color:  rgba(52, 51, 84);
+    }
+    .content-text{
+        font-size:  1em;
+        color: lightslategray;
+        margin-bottom: 15px;
+    }
+    .content-details{
+        margin-top: 15px;
+        color: darkslategrey;
+        font-size: 2em;
+        width: 20pc;
+    }
+    .content-link{
+        font-size: 0.8em;
+        color: #73c2fb;
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .large{
+        font-size: 1.5em;
+    }
+    .white{
+        color: white;
+    }
+
+    /*-----------------------------------------------------------------About page------------------------------------------*/
+    
