@@ -75,7 +75,7 @@ body{
 	background-color: blueviolet;
 	
 }
-.cpp{
+.cpp-projects{
 	display: flex;
 	width: 60%;
 	height: 250px;
@@ -111,4 +111,15 @@ body{
 	height: 250px;
 	background-color: white;
 	margin: 20px 40px 10px 20%;
+}
+
+.cpp-section-text{
+	text-align: center;
+	font-size: 50px;
+}
+.cpp-border{
+	border: 25px outset #73c2fb;
+	width: 70%;
+	margin: 20px 40px 10px 20%;
+	background-color:  rgba(52, 51, 84) ;
 }
