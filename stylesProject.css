@@ -123,3 +123,49 @@ body{
 	margin: 20px 40px 10px 20%;
 	background-color:  rgba(52, 51, 84) ;
 }
+.footer-text{
+    font-family: 'Gaegu', roboto;
+    padding: 10px 0px;
+    font-size: 30px;
+    margin: auto 43%;
+    width: 100%;
+}
+footer{
+
+    
+    width: 100%;
+    height: 8em;
+    background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+    margin-top: 100px;
+    
+    
+   
+}
+.bottom-nav{
+ 
+  
+   margin: auto 40%; 
+   width: 100%;
+   padding: 10px;
+   
+}
+.border{
+
+border:  1px solid;
+border-image: linear-gradient(to right, pink, blue) 1;
+border-width:  1px 0px 5px  0px;
+
+
+}
+nav a{
+   padding-right: 20px;
+   
+   color: white;
+}
+.copy-right{
+   
+    margin: auto 45%;
+    width: 1000%;
+
+   
+    }

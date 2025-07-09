@@ -71,7 +71,7 @@ footer, header, hgroup, menu, nav, section {
   address{
     line-height: 2;
   }
-  footer{
+  /* footer{
     
     width: 100%;
     background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
@@ -85,7 +85,7 @@ footer, header, hgroup, menu, nav, section {
   
   footer .footer-content { 
     margin: 0 auto; 
-    /*======= create a width property. Set the value to 600px */
+    //======= create a width property. Set the value to 600px 
     width: 600px;
     
   }
@@ -111,11 +111,59 @@ footer, header, hgroup, menu, nav, section {
   }
   footer .footer-content .copyright {
     padding: 20px 0;
-     /*======= center the text here */
+     //======= center the text here
     margin: 0 auto;
     width: 80em;
     
-  }
+  } */
+
+  .footer-text{
+    font-family: 'Gaegu', roboto;
+    padding: 10px 0px;
+    font-size: 30px;
+    margin: auto 43%;
+    width: 100%;
+}
+footer{
+
+    
+    width: 100%;
+    height: 8em;
+    background-image: linear-gradient(to right, rgba(52, 51, 84),#73c2fb);
+    margin-top: 100px;
+    
+    
+   
+}
+.bottom-nav{
+ 
+  
+   margin: auto 40%; 
+   width: 100%;
+   padding: 10px;
+   
+}
+.border{
+
+border:  1px solid;
+border-image: linear-gradient(to right, pink, blue) 1;
+border-width:  1px 0px 5px  0px;
+
+
+}
+nav a{
+   padding-right: 20px;
+   
+   color: white;
+}
+.copy-right{
+   
+    margin: auto 45%;
+    width: 1000%;
+
+   
+    }
+
 .about-us-text{
     font-size: 60px;
     margin: 20px;
